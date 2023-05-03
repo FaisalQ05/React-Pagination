@@ -190,20 +190,21 @@ td,th{
   // color: rgba(255, 255, 255, 0.799);
 }
 
-.pagination{
-  position: relative;
+.pagination-listbar-container{
+  // position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 1em;
 }
 
-.no-of-pages-select{
+.custom-page-container,.no-of-pages-select{
   display: flex;
-  position: absolute;
-  justify-content: center;
   align-items: center;
-  top: 0;
-  right: 0.4em;
-  gap: 10px;
-  // padding: 0.4em;
+  gap: 8px;
+  // gap: 1px;
 }
+
 
 .empty{
   padding: 1.3em;
